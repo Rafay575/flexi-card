@@ -32,12 +32,12 @@ export function EmployeeCardBackTemplateOnly({
   ];
 
   return (
-    <div className="relative w-[450px] h-[750px] overflow-hidden rounded-[22px] shadow-xl bg-white">
+    <div className="relative w-[450px] h-[750px] overflow-hidden  shadow-xl bg-white">
       {/* TEMPLATE */}
       <img
         src={templateSrc}
         alt="Card back template"
-        className="absolute inset-0 h-full w-full object-cover"
+        className="absolute inset-0 h-full w-full object-contain"
         draggable={false}
       />
 

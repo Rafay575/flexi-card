@@ -21,12 +21,12 @@ export function EmployeeCardFrontTemplateOnly({
     `${employee.firstName ?? ""} ${employee.lastName ?? ""}`.trim() || "—";
 
   return (
-    <div className="relative w-[450px] h-[750px] overflow-hidden rounded-[22px] shadow-xl bg-white">
+    <div className="relative w-[450px] h-[750px] overflow-hidden  shadow-xl bg-white">
       {/* TEMPLATE (complete design) */}
       <img
         src={templateSrc}
         alt="Card template"
-        className="absolute inset-0 h-full w-full object-cover"
+        className="absolute inset-0 h-full w-full object-contain"
         draggable={false}
       />
 
@@ -73,7 +73,7 @@ export function EmployeeCardFrontTemplateOnly({
       <div
         className="absolute left-0 right-0 text-center"
         style={{
-          top: "610px",
+          top: "615px",
           letterSpacing: "0.25em",
         }}
       >
