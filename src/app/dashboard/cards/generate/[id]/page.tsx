@@ -171,7 +171,7 @@ export default function GenerateCardPage() {
       </div>
 
       {/* ✅ If generated: show 2 real images. Else show template preview */}
-      <div className="grid gap-6 md:grid-cols-2">
+      <div className="grid gap-6 grid-cols-1">
         {/* Front */}
         <Card className="rounded-lg bg-white shadow-lg">
           <CardContent className="flex flex-col items-center justify-center gap-3 p-6">
